@@ -1,0 +1,12 @@
+target/
+
+### Eclipse ###
+.classpath
+.project
+.settings
+.metadata
+
+### IntelliJ IDEA ###
+.idea
+
+
