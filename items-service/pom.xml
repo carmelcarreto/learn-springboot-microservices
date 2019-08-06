@@ -8,7 +8,7 @@
 		<version>2.1.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ccm.learn.springboot.microservices</groupId>
+	<groupId>com.ccm.learn.springboot.microservices.itemsservice</groupId>
 	<artifactId>items-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>items-service</name>

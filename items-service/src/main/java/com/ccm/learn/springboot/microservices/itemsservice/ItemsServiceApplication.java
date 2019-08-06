@@ -1,4 +1,4 @@
-package com.ccm.learn.springboot.microservices;
+package com.ccm.learn.springboot.microservices.itemsservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
