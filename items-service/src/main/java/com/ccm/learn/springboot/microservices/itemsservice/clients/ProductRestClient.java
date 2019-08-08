@@ -15,9 +15,6 @@ public interface ProductRestClient {
 	public List<Product> listar();
 	
 	@GetMapping("/ver/{id}")
-	public Product detalle(@PathVariable Long id) {
+	public Product detalle(@PathVariable Long id);
 
-	}
-	
-	
 }
