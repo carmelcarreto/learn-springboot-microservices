@@ -8,8 +8,7 @@ import org.springframework.stereotype.Service;
 import com.ccm.learn.springboot.microservices.itemsservice.clients.ProductRestClient;
 import com.ccm.learn.springboot.microservices.itemsservice.models.Item;
 
-@Service
-@Primary
+@Service("serviceFeign")
 public class ItemServiceFeign implements ItemService {
 	
 	@Autowired
