@@ -15,7 +15,7 @@ import com.ccm.learn.springboot.microservices.itemsservice.models.service.ItemSe
 public class ItemController {
 
 	@Autowired
-	@Qualifier("serviceFeign")
+	@Qualifier("serviceRestTemplate")
 	private ItemService itemService;
 	
 	@GetMapping("/listar")
