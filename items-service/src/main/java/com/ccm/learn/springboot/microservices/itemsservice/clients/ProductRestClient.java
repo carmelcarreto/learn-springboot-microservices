@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.ccm.learn.springboot.microservices.itemsservice.models.Product;
 
-@FeignClient(name="products-service", url="localhost:8001")
+@FeignClient(name="products-service")
 public interface ProductRestClient {
 
 	@GetMapping("/listar")
