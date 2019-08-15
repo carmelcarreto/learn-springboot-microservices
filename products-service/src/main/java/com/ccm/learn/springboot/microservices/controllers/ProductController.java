@@ -40,6 +40,8 @@ public class ProductController {
 		Product product = productService.findById(id);
 		//producto.setPort(Integer.parseInt(env.getProperty("local.server.port")));
 		product.setPort(port);
+		
+		
 		return product;
 	}
 
